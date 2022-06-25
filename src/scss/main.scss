@@ -1,0 +1,50 @@
+
+$carousel-control-color: white;
+$carousel-control-width: 5%;
+$carousel-transition-duration: .5s;
+
+$carousel-indicator-width: 5%;
+$carousel-indicator-height: 3px;
+$carousel-indicator-hit-area-height: 0px;
+$carousel-indicator-active-bg:rgb(185, 185, 185);
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+#ksh-nav {
+    ul {
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        display: flex;
+        justify-content: center;
+        list-style-type: none;
+        margin: 2rem;
+        padding: 0;
+
+        li {
+            margin: 1rem;
+            padding: 1rem;
+            border: 1px solid gray;
+            border-radius: 10px;
+        }
+
+        li:hover {
+            cursor: pointer;
+        }
+    }
+}
+
+#carouselExampleIndicators {
+    margin: 1rem;
+    padding-bottom: .5rem;
+
+    .carousel-indicators {
+
+        margin: 0;
+    
+        button {
+            border-radius: 10px;
+        }   
+    }
+}
+
+
+
